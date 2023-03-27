@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sample-minting-dapp-gdsc/static/css/main.073c9b0a.css",
+    "main.js": "/sample-minting-dapp-gdsc/static/js/main.1baad665.js",
+    "static/js/787.75ab8d13.chunk.js": "/sample-minting-dapp-gdsc/static/js/787.75ab8d13.chunk.js",
+    "static/media/GDSC_logo-removebg-preview.png": "/sample-minting-dapp-gdsc/static/media/GDSC_logo-removebg-preview.c699813164d46feb1bbd.png",
+    "static/media/logo.svg": "/sample-minting-dapp-gdsc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sample-minting-dapp-gdsc/index.html",
+    "main.073c9b0a.css.map": "/sample-minting-dapp-gdsc/static/css/main.073c9b0a.css.map",
+    "main.1baad665.js.map": "/sample-minting-dapp-gdsc/static/js/main.1baad665.js.map",
+    "787.75ab8d13.chunk.js.map": "/sample-minting-dapp-gdsc/static/js/787.75ab8d13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1baad665.js"
+  ]
+}
