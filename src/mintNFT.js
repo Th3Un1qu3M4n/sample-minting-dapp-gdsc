@@ -64,7 +64,7 @@ const WalletCard = () => {
     data.append("minter", accountString)
     
     // fetch('http://localhost:5500/mintNFT', {
-      fetch('http://34.220.194.49:5500/mintNFT', {
+      fetch('https://34.220.194.49/mintNFT', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({minter: accountString}),
