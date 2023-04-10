@@ -3,7 +3,7 @@ import { Button, Paper, Stack, Typography } from "@mui/material";
 // import { Web3Provider } from "@ethersproject/providers";
 import React, { useEffect, useState } from "react";
 // const ethers = require("ethers")
-import logo from "./assets/GDSC_logo-removebg-preview.png";
+import logo from "./assets/thanks.png";
 
 const WalletCard = () => {
   const [errorMessage, setErrorMessage] = useState(null);
@@ -64,7 +64,7 @@ const WalletCard = () => {
     data.append("minter", accountString)
     
     // fetch('http://localhost:5500/mintNFT', {
-      fetch('https://34.220.194.49/mintNFT', {
+      fetch('https://nftserver.devbyahmed.com/mintNFT', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({minter: accountString}),
@@ -95,7 +95,7 @@ const WalletCard = () => {
     <>
     <Paper elevation={3} sx={{ p: 3 }}>
       <Stack spacing={2}>
-      <img src={logo} alt="Logo" style={{width: '30vh', alignSelf:'center'}} />;
+      <img src={logo} alt="Logo" style={{width: '1024px', alignSelf:'center'}} />
       <Typography variant="h6"> Account: {account?.toString().substring(0,4)}...{account?.toString().substring(account.length-4, account.length)} </Typography>
 
         <Button onClick={connectHandler}>Connect Account</Button>
